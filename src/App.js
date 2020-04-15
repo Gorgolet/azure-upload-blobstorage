@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gorgo
+          Azure upload to blobstorage
         </a>
       </header>
       <FilePond server = "https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA=="/>
