@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { FilePond } from 'react-filepond';
+import 'filepond/dist/filepond.min.css';
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Gorgo
         </a>
       </header>
+      <FilePond server = "https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA=="/>
     </div>
   );
 }
