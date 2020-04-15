@@ -25,7 +25,7 @@ function App() {
       <FilePond server = 
       {
         {
-          url : '"https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA=="',
+          url : 'https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA==',
           process:{
             headers : {
               'id':uuidv4(),
