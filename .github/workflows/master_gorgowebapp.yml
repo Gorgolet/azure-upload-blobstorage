@@ -32,4 +32,4 @@ jobs:
         app-name: 'gorgowebapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_03ad8dcdf78f4d38bffa9c7b51970474 }}
-        package: .
+        package: ./build
