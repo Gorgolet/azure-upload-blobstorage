@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { v4 as uuidv4 } from 'uuid';
 import './App.css';
 import { FilePond } from 'react-filepond';
 import 'filepond/dist/filepond.min.css';
@@ -21,7 +22,22 @@ function App() {
           Azure upload to blobstorage
         </a>
       </header>
-      <FilePond server = "https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA=="/>
+      <FilePond server = 
+      {
+        {
+          url : '"https://gorgofunction.azurewebsites.net/api/uploadpic?code=/Vv9yf/mgNy4tPeNPRbkYv4qGhiM3rZvF0D7JP7qxt1NlzGJW3MLhA=="',
+          process:{
+            headers : {
+              'id':uuidv4(),
+            },
+          }      
+       }
+      }
+      
+      
+      
+      
+      />
     </div>
   );
 }
